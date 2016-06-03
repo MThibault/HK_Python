@@ -13,11 +13,7 @@ print (mon_dico)
 
 print ("**********Exercice 3**********")
 mon_tuple = (1, 2, 3)
-ma_liste = list ()
-i = 0
-while i < len (mon_tuple):
-	ma_liste.append(mon_tuple[i])
-	i += 1
+ma_liste = list (mon_tuple)
 print (ma_liste)
 ma_liste.remove(1)
 ma_liste.append(3)
