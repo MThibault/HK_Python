@@ -13,5 +13,5 @@ print("**********Exercice 2**********")
 birth_year = input("En quelle année es tu né(e) ? : ")
 birth_year = int(birth_year)
 cur_year = date.today().year
-age	= cur_year - birth_year
+age = cur_year - birth_year
 print("Vous avez {} ans.". format(age))
